@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-sqlMapper.dtd">
+<sqlMapper namespace="com.ninjutsu.dao.IUserDao">
+    <select id="findAll" resultType="com.ninjutsu.domain.User">
+        select * from user
+    </select>
+</sqlMapper>
